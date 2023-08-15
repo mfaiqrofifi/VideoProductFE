@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Header from './components/Header/header';
+import { ThemeProvider } from '@mui/material/styles';
+import { theme } from './components/theme/theme';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <ThemeProvider theme={theme}> */}
+      <Header/>
+      {/* </ThemeProvider> */}
+      
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +23,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
