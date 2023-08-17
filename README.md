@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Video Product List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Video List Product App is designed to facilitate users in selecting products that suit their needs. This application provides product information through in-depth video descriptions and allows users to visually browse a list of products through product cards. Additionally, a comment feature is provided to enable interaction between users, allowing them to share insights and experiences related to specific products
 
-## Available Scripts
+## Key Fiture
 
-In the project directory, you can run:
+- Product Video Descriptions: Users can view detailed video descriptions of specific products. These videos will provide richer and clearer information about product features, uses, and benefits. The video descriptions aim to help users better understand products before making purchase decisions.
+- Product Card List: The app displays a list of products in visually appealing card format. Each product card will showcase the product image, name, and brief information about the product. Users can easily explore the product list and select those that pique their interest
 
-### `npm start`
+- Comment Feature: Users can leave comments and responses on specific products. This feature enables interaction between users, allowing them to share experiences, ask questions, or express opinions about the products. Comments can also assist other users in making purchase decisions by providing additional insights.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Search : The app includes a comprehensive search feature that allows users to search for products by name or keywords.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technology
 
-### `npm test`
+- React js
+- Material UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Link to Access
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`https://64dd2a7baca653074e4d5344--stalwart-dusk-f9a622.netlify.app/`

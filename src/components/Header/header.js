@@ -31,7 +31,6 @@ export default function Header(props){
     const [picture,setPicture]=useState({});
     useEffect(()=>{
       Picture();
-      console.log(picture);
       
     },[])
     async function Picture(){

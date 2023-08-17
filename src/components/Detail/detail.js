@@ -13,10 +13,15 @@ export function Detail(){
         justifyContent="flex-start"
         alignItems="flex-start"
         spacing={2}
+        position='relative'
         useFlexGap flexWrap="wrap">
-            <Product id={urlParams.id}/>
+                <Product id={urlParams.id}/>
             <YouTubeVideo/>
+           
+            
             <Comment id={urlParams.id}/>
+           
+            
         </Stack>
         
         </>

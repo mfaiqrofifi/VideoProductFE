@@ -26,16 +26,16 @@ export function Comment({id}){
         }
       }
       return(<>
-    <Container style={{ maxWidth: '500px' }} sx={{ marginTop: 4 ,position: 'fixed', right: '10px', top: '0'}}>
-      <Typography variant="h4" sx={{ marginBottom: 3 }}>
+    <Container style={{flex: '1 1 20%'}} sx={{ position: 'sticky', right: '0', top: '0'}}>
+      {/* <Typography variant="h4" sx={{ marginBottom: 3 }}>
         Comments
-      </Typography>
+      </Typography> */}
       <Paper 
       style={{
         borderBottomLeftRadius: '0',
         borderBottomRightRadius: '0',
       }}
-      elevation={3} sx={{ padding: 3, maxHeight: '330px', overflowY: 'scroll' }}>
+      elevation={3} sx={{ padding: 3, maxHeight: '330px', overflowY: 'scroll' }} >
         {comments?.data?.map((comment) => {
             console.log(comment)
           return(<TableComment

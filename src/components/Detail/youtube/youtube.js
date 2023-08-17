@@ -9,16 +9,17 @@ const YouTubeVideo = ({ videoId, width, height }) => {
   const embedUrl = "https://www.youtube.com/embed/"+item;
 
   return (
-    <Paper elevation={3} style={{ maxWidth: '800px' }} sx={{ marginTop: 12.25 ,position: 'fixed', left: '400px', top: '0'}}>
+    // <Paper elevation={3} style={{flex: '1 1 30%',position: 'sticky', height:'500px'}} sx={{ marginTop: 12.25 }}>
       <iframe
-        width="600px"
-        height="400px"
+        width="100%"
+        height="350px"
         src={embedUrl}
         title="YouTube Video"
         allowFullScreen
         frameBorder="0"
+        elevation={3} style={{flex: '1 1 30%',position: 'sticky',top:'2'}} sx={{ marginTop: 12.25 }}
       />
-    </Paper>
+    // </Paper>
   );
 };
 

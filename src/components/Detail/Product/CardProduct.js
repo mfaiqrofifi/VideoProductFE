@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import CardProduct from "./card";
-import { Stack } from "@mui/material";
+import { Stack, TextField } from "@mui/material";
 
 export function Product({id}){
     const [product,setProduct]=useState([]);
-
+    
     useEffect(()=>{
         console.log("Heloo guys");
         console.log(product);
@@ -22,23 +22,39 @@ export function Product({id}){
           console.log(e.message);
         }
       }
+      const [search,setSearch]=useState('');
       return(<>
       <Stack
         direction="column"
         justifyContent="flex-start"
         alignItems="flex-start"
         spacing={5}
-        useFlexGap flexWrap="wrap">
+        useFlexGap flexWrap="wrap"
+        style={{flex: '1 1 20%'}}>
+        <TextField
+        label="Search"
+        variant="outlined"
+        fullWidth
+        value={search}
+        onChange={e => setSearch(e.target.value)}
+      />
       {
         
-        product?.data?.map((item)=>{
+        search==''?product?.data?.map((item)=>{
             console.log(item)
             return (
               
             <CardProduct url={item.link_product} name={item.title} price={item.price}/>
             
             )
-        })
+        }):product?.data?.filter(item=>item.title.toLowerCase().includes(search.toLowerCase())).map((item)=>{
+          console.log(item)
+          return (
+            
+          <CardProduct url={item.link_product} name={item.title} price={item.price}/>
+          
+          )
+      })
       }
       </Stack>
       </>)
